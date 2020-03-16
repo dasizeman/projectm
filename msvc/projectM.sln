@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MilkdropPresetFactory", "MilkdropPresetFactory.vcxproj", "{EF3369C9-E934-3F1E-996B-21518B57A809}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -25,8 +25,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "projectMSDL", "projectMSDL.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MstressJuppyDancer", "MstressJuppyDancer.vcxproj", "{55A71B6A-5C7E-30D5-8210-302A8D2080DB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "projectM-qt", "projectM-qt.vcxproj", "{9260C46C-6BC9-396F-9310-6BAAD56A7801}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RovastarDarkSecret", "RovastarDarkSecret.vcxproj", "{7A203034-A4D7-3A2B-9138-CB125F9B35E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RovastarDriftingChaos", "RovastarDriftingChaos.vcxproj", "{6E418BC8-5407-3A37-96BD-5201D47DE753}"
@@ -34,6 +32,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RovastarFractalSpiral", "RovastarFractalSpiral.vcxproj", "{B7C4937F-A36D-3B6C-A8AC-CA99772AE5EC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RovastarFractopiaFrantic", "RovastarFractopiaFrantic.vcxproj", "{27DDCE71-E33B-3521-92B5-9918356D78A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectMQt", "ProjectMQt.vcxproj", "{FC1CC2AC-3715-4372-9753-9664ACD2800C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,8 +65,6 @@ Global
 		{55A71B6A-5C7E-30D5-8210-302A8D2080DB}.Debug|x64.Build.0 = Debug|x64
 		{55A71B6A-5C7E-30D5-8210-302A8D2080DB}.Release|x64.ActiveCfg = Release|x64
 		{55A71B6A-5C7E-30D5-8210-302A8D2080DB}.Release|x64.Build.0 = Release|x64
-		{9260C46C-6BC9-396F-9310-6BAAD56A7801}.Debug|x64.ActiveCfg = Debug|x64
-		{9260C46C-6BC9-396F-9310-6BAAD56A7801}.Release|x64.ActiveCfg = Release|x64
 		{7A203034-A4D7-3A2B-9138-CB125F9B35E6}.Debug|x64.ActiveCfg = Debug|x64
 		{7A203034-A4D7-3A2B-9138-CB125F9B35E6}.Debug|x64.Build.0 = Debug|x64
 		{7A203034-A4D7-3A2B-9138-CB125F9B35E6}.Release|x64.ActiveCfg = Release|x64
@@ -83,6 +81,10 @@ Global
 		{27DDCE71-E33B-3521-92B5-9918356D78A1}.Debug|x64.Build.0 = Debug|x64
 		{27DDCE71-E33B-3521-92B5-9918356D78A1}.Release|x64.ActiveCfg = Release|x64
 		{27DDCE71-E33B-3521-92B5-9918356D78A1}.Release|x64.Build.0 = Release|x64
+		{FC1CC2AC-3715-4372-9753-9664ACD2800C}.Debug|x64.ActiveCfg = Debug|x64
+		{FC1CC2AC-3715-4372-9753-9664ACD2800C}.Debug|x64.Build.0 = Debug|x64
+		{FC1CC2AC-3715-4372-9753-9664ACD2800C}.Release|x64.ActiveCfg = Release|x64
+		{FC1CC2AC-3715-4372-9753-9664ACD2800C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,11 +29,8 @@
 #ifndef _PROJECTM_HPP
 #define _PROJECTM_HPP
 
-#ifdef WIN32
+
 #include "dirent.h"
-#else
-#include <dirent.h>
-#endif /** WIN32 */
 #include <cmath>
 #include <cstdio>
 #include <string>

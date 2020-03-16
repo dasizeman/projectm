@@ -24,7 +24,7 @@
 
 #include <iostream>
 #include "qprojectm.hpp"
-#include <QGLWidget>
+#include <QtOpenGL/QGLWidget>
 #include <QMutex>
 #include <QtDebug>
 #include <QKeyEvent>
